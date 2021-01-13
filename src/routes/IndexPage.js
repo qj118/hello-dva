@@ -71,4 +71,4 @@ class IndexPage extends React.Component{
 // export default connect(mapStateToProps)(IndexPage);
 
 // 将 models 绑定到组件上，这样可以在组件的 props 中看到名为 indexTest 的属性， indexTest 来自于命名空间
-export default connect(({indexTest}) => ({ indexTest })) (IndexPage);
+export default connect(({indexTest}) => ({ indexTest }))(IndexPage);

@@ -1,3 +1,8 @@
 {
-  "extends": "umi"
+  "extends": "umi",
+  "rules": {
+    "generator-star-spacing": "off",
+    "consistent-return": "off",
+    "func-call-spacing": "warn"
+  }
 }
